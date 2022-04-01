@@ -9,7 +9,7 @@ if (urlParams.get("c")) {
 console.log(newsQ);
 var today = new Date();
 var url =
-  "https://newsapi.org/v2/everything?" +
+  "http://newsapi.org/v2/everything?" +
   `q=$${newsQ}&` +
   `from=${today.getFullYear()}-${String(today.getMonth() + 1).padStart(
     2,
