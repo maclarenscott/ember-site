@@ -19,15 +19,15 @@ $crypto_info = coingGeckoRequest();
   <link rel="icon" type="image/png" href="../assets/img/logo-main.png" />
   <title>Ember</title>
   <!--     Fonts and icons     -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
   <!-- Nucleo Icons -->
   <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
   <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- Font Awesome Icons -->
-  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <script src="http://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
   <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <!-- CSS Files -->
   <link id="pagestyle" href="../assets/css/soft-ui-dashboard.css?v=1.0.4" rel="stylesheet" />
   <link id="pagestyle" href="../assets/css/charts.css" rel="stylesheet" />
@@ -190,7 +190,7 @@ $crypto_info = coingGeckoRequest();
                     <td style="border-width: 0px !important;">
                       <div class="d-flex px-2 py-1">
                         <div>
-                          <img src="https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/128/icon/btc.png" class="avatar avatar-sm me-3" alt="xd" />
+                          <img src="http://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/128/icon/btc.png" class="avatar avatar-sm me-3" alt="xd" />
                         </div>
                         <div class="d-flex flex-column justify-content-center">
                           <h6 class="mb-0 text-sm">Bitcoin</h6>
@@ -222,7 +222,7 @@ $crypto_info = coingGeckoRequest();
                     <td style="border-width: 0px !important;">
                       <div class="d-flex px-2 py-1">
                         <div>
-                          <img src="https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/128/icon/eth.png" class="avatar avatar-sm me-3" alt="atlassian" />
+                          <img src="http://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/128/icon/eth.png" class="avatar avatar-sm me-3" alt="atlassian" />
                         </div>
                         <div class="d-flex flex-column justify-content-center">
                           <h6 class="mb-0 text-sm">Ethereum</h6>
@@ -254,7 +254,7 @@ $crypto_info = coingGeckoRequest();
                     <td>
                       <div class="d-flex px-2 py-1">
                         <div>
-                          <img src="https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/128/icon/doge.png" class="avatar avatar-sm me-3" alt="team7" />
+                          <img src="http://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/128/icon/doge.png" class="avatar avatar-sm me-3" alt="team7" />
                         </div>
                         <div class="d-flex flex-column justify-content-center">
                           <h6 class="mb-0 text-sm">Dogecoin</h6>
@@ -320,7 +320,7 @@ $crypto_info = coingGeckoRequest();
                 }
                 echo '<div class="timeline-block mb-3">
                     <span class="timeline-step">
-                      <img src="https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/128/icon/' . $order["coin"] . '.png" class="avatar avatar-sm me-1" alt="xd" />
+                      <img src="http://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/128/icon/' . $order["coin"] . '.png" class="avatar avatar-sm me-1" alt="xd" />
                     </span>
                     <div class="timeline-content">
                       <h6 class="text-dark text-sm font-weight-bold mb-0">
@@ -370,12 +370,12 @@ $crypto_info = coingGeckoRequest();
                               <script src="../assets/js/plugins/smooth-scrollbar.min.js"></script>
                               <script src="../assets/js/plugins/chartjs.min.js"></script>
                               <!-- Github buttons -->
-                              <script async defer src="https://buttons.github.io/buttons.js"></script>
+                              <script async defer src="http://buttons.github.io/buttons.js"></script>
                               <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
                               <script src="../assets/js/soft-ui-dashboard.min.js?v=1.0.4"></script>
-                              <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-                              <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-                              <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+                              <script src="http://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                              <script src="http://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+                              <script src="http://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
                               <script src="../assets/js/plugins/countup.js"></script>
 </body>
 

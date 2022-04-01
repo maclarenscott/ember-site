@@ -84,14 +84,14 @@ getData = function (coin, days) {
   let url;
   if (parseInt(days) < 2) {
     url =
-      "https://api.coingecko.com/api/v3/coins/" +
+      "http://api.coingecko.com/api/v3/coins/" +
       coin +
       "/market_chart?vs_currency=usd&days=" +
       days +
       "&interval=minutely";
   } else {
     url =
-      "https://api.coingecko.com/api/v3/coins/" +
+      "http://api.coingecko.com/api/v3/coins/" +
       coin +
       "/market_chart?vs_currency=usd&days=" +
       days +
